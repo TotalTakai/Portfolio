@@ -16,6 +16,7 @@ import reduxIcon from "./pictures/icons/redux.png";
 import unityIcon from "./pictures/icons/unity.png";
 import csharpIcon from "./pictures/icons/csharp.png";
 import pythonIcon from "./pictures/icons/python.png";
+import githubIcon from "./pictures/icons/github.svg";
 
 // Importing components
 import HeaderBar from "./Components/headerBar";
@@ -52,7 +53,7 @@ function App() {
       <Projects />
       <Quote />
       <LinksBar />
-      <FooterBar />
+      <FooterBar githubIcon={githubIcon} />
     </div>
   );
 }

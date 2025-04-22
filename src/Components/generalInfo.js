@@ -6,8 +6,6 @@ function GeneralInfo({ coderPicture }) {
   return (
     <div className="general-info">
       <div className="info">
-        <h1 className="name">Nir Yanay</h1>
-        <h2 className="title">Full Stack Developer</h2>
         <p className="description">
           I am a full stack developer with a passion for creating dynamic and
           responsive web applications. I have experience in both front-end and

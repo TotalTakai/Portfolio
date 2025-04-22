@@ -15,7 +15,7 @@
   border: 0.2rem solid #f9f7f7;
   padding: 1rem;
   width: 100%;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
 }
 
 .tool-icon {

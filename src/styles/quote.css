@@ -1,0 +1,17 @@
+.quote {
+  padding: 8rem 0 8rem 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  border: 0.2rem solid #112d4e;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #112d4e;
+}

@@ -1,9 +1,13 @@
 import React from "react";
 
+import "../styles/linksBar.css";
+
 function LinksBar() {
   return (
     <div className="links-bar">
-      <h1>LinksBar test</h1>
+      <a href="#">Linkedin</a>
+      <a href="#">Email</a>
+      <a href="#">Github</a>
     </div>
   );
 }
