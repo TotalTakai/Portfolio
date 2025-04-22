@@ -1,7 +1,21 @@
 import React from "react";
 
+//importing pictures
 import coderPicture from "./pictures/Nir.png";
 import logo from "./pictures/logo256.png";
+
+//importing icons for tools
+import htmlIcon from "./pictures/icons/html.png";
+import cssIcon from "./pictures/icons/css.png";
+import jsIcon from "./pictures/icons/javascript.png";
+import reactIcon from "./pictures/icons/react.png";
+import nodeIcon from "./pictures/icons/nodejs.png";
+import gitIcon from "./pictures/icons/git.png";
+import jiraIcon from "./pictures/icons/jira.png";
+import reduxIcon from "./pictures/icons/redux.png";
+import unityIcon from "./pictures/icons/unity.png";
+import csharpIcon from "./pictures/icons/csharp.png";
+import pythonIcon from "./pictures/icons/python.png";
 
 // Importing components
 import HeaderBar from "./Components/headerBar";
@@ -22,7 +36,19 @@ function App() {
     <div className="App">
       <HeaderBar logo={logo} />
       <GeneralInfo coderPicture={coderPicture} />
-      <Tools />
+      <Tools
+        htmlIcon={htmlIcon}
+        cssIcon={cssIcon}
+        jsIcon={jsIcon}
+        reactIcon={reactIcon}
+        nodeIcon={nodeIcon}
+        gitIcon={gitIcon}
+        jiraIcon={jiraIcon}
+        reduxIcon={reduxIcon}
+        unityIcon={unityIcon}
+        csharpIcon={csharpIcon}
+        pythonIcon={pythonIcon}
+      />
       <Projects />
       <Quote />
       <LinksBar />
