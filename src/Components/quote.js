@@ -4,7 +4,7 @@ import "../styles/quote.css";
 
 function Quote() {
   return (
-    <div className="quote">
+    <div className="quote scroll-animate">
       <h2>
         Great things are done by a series of small things brought together
       </h2>

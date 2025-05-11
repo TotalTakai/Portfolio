@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { useScrollAnimation } from "./hooks/scrollAnimations";
+import { useResponsiveDesign } from "./hooks/responsiveDesign";
 
 //importing pictures
 import coderPicture from "./pictures/Nir.png";
@@ -35,6 +37,8 @@ import "./styles/App.css";
 // It imports all components and renders them in the correct order
 // It also imports the logo and coderPicture to be used in the components
 function App() {
+  useScrollAnimation();
+  useResponsiveDesign();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -44,6 +48,7 @@ function App() {
   if (loading) {
     return <LoadingSpinner />;
   }
+
   return (
     <div className="App">
       <HeaderBar logo={logo} />

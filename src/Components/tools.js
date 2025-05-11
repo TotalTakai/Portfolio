@@ -17,7 +17,7 @@ function Tools({
   typescriptIcon,
 }) {
   return (
-    <div className="tools">
+    <div className="tools scroll-animate">
       <div className="tools-container">
         <div className="small-container">
           <div className="icon-container">

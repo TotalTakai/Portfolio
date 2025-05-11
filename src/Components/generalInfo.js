@@ -4,7 +4,7 @@ import "../styles/generalInfo.css";
 
 function GeneralInfo({ coderPicture }) {
   return (
-    <div className="general-info">
+    <div className="general-info scroll-animate">
       <div className="info">
         <p className="description">
           Passionate about crafting intuitive and dynamic web applications, I

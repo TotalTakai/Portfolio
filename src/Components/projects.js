@@ -3,7 +3,7 @@ import "../styles/projects.css";
 
 function Projects() {
   return (
-    <div className="projects" data-aos="fade-up">
+    <div className="projects scroll-animate">
       <h1>Projects</h1>
       <div className="projects-container" data-aos="zoom-in">
         <div className="project-card" data-aos="flip-left">
