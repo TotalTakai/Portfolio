@@ -1,8 +1,31 @@
 .projects {
-  padding: 8rem 0 8rem 0;
-  display: flex;
-  flex-direction: column;
+  padding: 4rem 2rem;
+  background-color: var(--light-gray);
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  padding: 2rem;
+}
+
+.project-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.projects h1,
+.projects h2 {
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  margin-bottom: 1.5rem;
 }

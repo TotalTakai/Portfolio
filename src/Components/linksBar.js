@@ -5,9 +5,9 @@ import "../styles/linksBar.css";
 function LinksBar() {
   return (
     <div className="links-bar">
-      <a href="#">Linkedin</a>
-      <a href="#">Email</a>
-      <a href="#">Github</a>
+      <a href="https://www.linkedin.com/in/nir-yanay/">Linkedin</a>
+      <a href="mailto:Yanaynir1@gmail.com">Email</a>
+      <a href="https://github.com/TotalTakai/">Github</a>
     </div>
   );
 }

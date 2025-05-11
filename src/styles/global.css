@@ -1,0 +1,79 @@
+:root {
+  --dark-blue: #112d4e;
+  --royal-blue: #3f72af;
+  --light-blue: #dbe2ef;
+  --light-gray: #f9f7f7;
+
+  --font-heading: "Poppins", sans-serif;
+  --font-body: "Roboto", sans-serif;
+
+  --font-size-xl: 2.5rem;
+  --font-size-lg: 1.5rem;
+  --font-size-md: 1rem;
+  --font-size-sm: 0.875rem;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: white;
+  color: #3f3f3f;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  color: var(--dark-blue);
+}
+
+.section {
+  padding: 4rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: var(--font-size-xl);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.card {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: var(--light-gray);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: var(--font-size-lg);
+  }
+
+  .card {
+    padding: 1.5rem;
+  }
+}
+a:hover,
+button:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.project-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}

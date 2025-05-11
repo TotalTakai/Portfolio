@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 //importing pictures
 import coderPicture from "./pictures/Nir.png";
@@ -27,6 +27,7 @@ import Projects from "./Components/projects";
 import Quote from "./Components/quote";
 import LinksBar from "./Components/linksBar";
 import FooterBar from "./Components/footerBar";
+import LoadingSpinner from "./Components/loadingSpinner";
 
 import "./styles/App.css";
 
@@ -34,6 +35,15 @@ import "./styles/App.css";
 // It imports all components and renders them in the correct order
 // It also imports the logo and coderPicture to be used in the components
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => setLoading(false), 1000);
+  }, []);
+
+  if (loading) {
+    return <LoadingSpinner />;
+  }
   return (
     <div className="App">
       <HeaderBar logo={logo} />

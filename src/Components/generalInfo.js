@@ -7,10 +7,11 @@ function GeneralInfo({ coderPicture }) {
     <div className="general-info">
       <div className="info">
         <p className="description">
-          I am a full stack developer with a passion for creating dynamic and
-          responsive web applications. I have experience in both front-end and
-          back-end development, and I am always eager to learn new technologies
-          and improve my skills.
+          Passionate about crafting intuitive and dynamic web applications, I
+          specialize in both front-end and back-end development. My drive to
+          continuously learn and adapt keeps me at the forefront of modern web
+          technologies. Whether building from scratch or improving existing
+          solutions, I am dedicated to delivering impactful digital experiences.
         </p>
       </div>
       <div className="img-div">
