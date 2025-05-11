@@ -14,13 +14,13 @@
   align-items: center;
   border: 0.2rem solid #f9f7f7;
   padding: 1rem;
-  width: 100%;
+  width: 50%;
   flex-flow: row wrap;
 }
 
 .tool-icon {
-  width: 5rem;
-  min-width: 5rem;
+  width: 3rem;
+  min-width: 3rem;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -28,4 +28,21 @@
   align-items: center;
   padding-left: 0.25rem;
   padding-right: 0.25rem;
+}
+
+.small-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
 }

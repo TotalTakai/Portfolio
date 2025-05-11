@@ -17,6 +17,7 @@ import unityIcon from "./pictures/icons/unity.png";
 import csharpIcon from "./pictures/icons/csharp.png";
 import pythonIcon from "./pictures/icons/python.png";
 import githubIcon from "./pictures/icons/github.svg";
+import typescriptIcon from "./pictures/icons/typescript.png";
 
 // Importing components
 import HeaderBar from "./Components/headerBar";
@@ -49,6 +50,7 @@ function App() {
         unityIcon={unityIcon}
         csharpIcon={csharpIcon}
         pythonIcon={pythonIcon}
+        typescriptIcon={typescriptIcon}
       />
       <Projects />
       <Quote />
